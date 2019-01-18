@@ -38,7 +38,6 @@ html{
 body{
   font-family: 'Oswald', sans-serif;
     font-size: 18px;
-    overflow-y: hidden;
     overflow-x: hidden;
 }
 
@@ -109,12 +108,12 @@ canvas{
   border-color: #1dc91d;
   border-radius: 5px;
   width: 70vw;
-  height: 20vh;
+  height: auto
 }
 
 .footer{
   position: absolute;
-  bottom: 0;
+  top: 1vh;
   background-color: transparent;
   width: 100vw;
   height: 10vh;
