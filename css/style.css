@@ -46,6 +46,10 @@ canvas{
   vertical-align:bottom;
 }
 
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
 
 
 .quiz-area{
@@ -181,6 +185,10 @@ button#answer{
 #timer{
   min-height: 7vh;
   min-width: 20vh;
+}
+
+.contacts_holder{
+  height: 80vh!important;
 }
 
 .wrapper { 
