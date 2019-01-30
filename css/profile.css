@@ -1,8 +1,25 @@
+body{
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
 .profile-area{
 	padding: 4%;
+	margin-top: 17vh;
+	margin-left: 20vw;
+	width: 60vw!important;
 }
 
 .username-container{
 	right: 0;
-	font-size: 7vh;
+	font-size: 4vh;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.profile_pic{
+	border-radius: 50%;
+	width: 20vw;
 }

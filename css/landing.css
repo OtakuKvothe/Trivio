@@ -1,0 +1,92 @@
+.box, .box2{
+	position: absolute;
+	margin-left: 10vw;
+}
+.container{
+	position: absolute;
+}
+.box{
+	background-color: transparent;
+	margin-top: 15vh;
+	min-width: 80vw;
+	height: auto;
+	z-index: 500;
+
+}
+.box2{
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	margin-top: 2vh;
+	color: white;
+	z-index: 1000;
+	width: 80vw;
+}
+.row{
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.intro{
+	margin-top: 20vh;
+	font-size: 30px;
+	padding-left: 7vw;
+	padding-right: 7vw;
+}
+.head{
+	display: block;
+	color: white;
+	opacity: 1;
+}
+
+.main{
+	font-size: 200px;
+	padding-top: 10vh;
+	padding-bottom: 7vh;
+}
+
+.line{
+	font-size: 40px;
+	margin-bottom: 7vh;
+	opacity: 1;
+}
+.button_up{
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.bt_up{
+	background: transparent;
+	border: none;
+}
+
+.bt_dn{
+	background: transparent;
+	border: none;
+	opacity: 1;
+}
+.btn_strt{
+	color: white;
+	height: 8vh;
+	width: 7vw;
+	background-color: rgba(0,0,0,0.3);
+	border: none;
+	border-radius: 20px;
+}
+
+.get_started{
+	margin-top: 20vh;
+}
+@media only screen and (max-width: 768px){
+	.box{
+		max-width: 60vw!important;
+		margin-left: 10vw;
+	}
+
+	.main{
+		padding-top: 0;
+		margin-top: -5vh;
+		font-size: 20vh;
+	}
+}
+
