@@ -109,7 +109,7 @@ body:after {
   width: 100%;
   text-align: center;
   position: relative;
-  top: 0;
+  top: 0!important;
 }
 .login-view-toggle a {
   color: white;
@@ -260,7 +260,7 @@ body:after {
     top: 20px;
   }
   100% {
-    top: calc(100vh - 30px);
+    top: 0;
   }
 }
 @keyframes move-bottom {
@@ -268,6 +268,6 @@ body:after {
     top: 20px;
   }
   100% {
-    top: calc(100vh - 30px);
+    top: 0;
   }
 }
