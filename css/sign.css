@@ -12,6 +12,7 @@ body:after {
   z-index: 1;
 }
 .wrapper2 {
+  padding-top: 8vh;
   max-width: 300px;
   background-color: transparent;
   height: 100%;
@@ -107,8 +108,8 @@ body:after {
   color: rgba(255, 255, 255, 0.8);
   width: 100%;
   text-align: center;
-  position: absolute;
-  top: calc(100vh - 30px);
+  position: relative;
+  top: 0;
 }
 .login-view-toggle a {
   color: white;
