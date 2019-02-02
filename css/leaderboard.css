@@ -9,6 +9,10 @@
 	min-height: 7vh;
 }
 
+.chi{
+	height: 120px;
+}
+
 .title-bar{
 	min-height: 5vh;
 	padding-top: 2vh;
@@ -24,9 +28,40 @@
 	align-items: center;
 	text-align: center;
 	justify-content: center;
+	overflow-x: scroll;
+}
+.rankings-area:hover{
+	background-color: #1dc91d;
+  color: white;
 }
 
-.ranking-item{
-	width: 70vw;
-	margin-left: 5vw;
+.top-icon{
+	float: left;
+}
+.title{
+	font-size: 7vh;
+	padding-top: 4vh;
+	text-align: center;
+}
+.chih{
+	text-align: right;
+	padding-right: 10vw;
+}
+@media only screen and (max-width: 768px) {
+	.ranking-item{
+		
+	}
+	.icon{
+		
+	}
+	.title{
+		padding-top: 0;
+
+	}
+	.ibox{
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+	}
 }
