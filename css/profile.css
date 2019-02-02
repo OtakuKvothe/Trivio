@@ -69,20 +69,20 @@ body{
 	background-color: white;
 	color: #1dc91d;
 }
-@media only screen and(max-width: 768px){
+@media only screen and (max-width: 768px){
 	.logout_button button{
-		width: 300px;
-		height: 10vh;
+		width: 200px;
+		height: 40px;
 		border-radius: none;
 	}
 	.main-content{
 	}
 	.trivio{
 		width: auto;
-		height: 10vh!important;
+		height: 70px;
 	}
 	.profile_pic{
 	width: auto;
-	height: 10vh!important;
-}
+	height: 70px;
+	}
 }

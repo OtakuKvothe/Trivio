@@ -141,10 +141,7 @@ p.footer-opt{
     50%{background-position:100% 19%}
     100%{background-position:0% 82%}
 }
-#message{
-  top: 35vh;
-  left: 35vw;
-}
+
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
@@ -153,18 +150,10 @@ p.footer-opt{
     display: none;
   }
   
-  #message{
-    position:fixed; 
-  top: calc(50% - 50px); 
-  left: calc(50% - 170px);
-  }
+  
 }
 @media only screen and (max-width: 320px){
-  #message{
-    position:fixed; 
-  top: calc(50% - 50px); 
-  left: calc(50% - 160px);
-  }
+ 
 }
 
 .left-footer {
