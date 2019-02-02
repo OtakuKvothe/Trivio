@@ -38,12 +38,55 @@
 	margin-left: 10vw;
 }
 .chi_cube{
-	height: 20vh;
+	height: 30vh;
 	float: right;
-	margin-right: 7vw;
 }
-
+.tb2{
+	text-align: center;
+	align-self: center;
+	align-items: center;
+	justify-content: center;
+}
+.trivio{
+	height: 30vh;
+}
+.tb.timer{
+	top: 10vh; font-size: 10vh; color: black;
+}
+.chi2{
+	position: absolute;
+	bottom: 0;
+}
+.foot {
+	display: none;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: transparent;
+   color: white;
+   text-align: center;
+}
+@media only screen and (max-width: 1024px){
+	.chi{
+		text-align: center;
+		align-items: center;
+		align-content: center;
+		justify-content: center;
+	}
+	.chi_cube{
+		margin-right: 0;
+		float: none;
+		position: relative;
+	}
+	.foot{
+		display: initial;
+	}
+}
 @media only screen and (max-width: 768px){
+	.main-content.tt{
+		top: 62vh!important;
+	}
 	.block_holder{
 		display: block;
 	}
@@ -59,12 +102,57 @@
 	}
 	.chi_cube{
 		margin-right: 0;
+		float: none;
+		position: relative;
+	}
+	div.row.top{
+		height: auto;
 	}
 	.top{
+		margin-top: -2vh;
+		height: auto;
 		display: block;
 	}
 	.top.col{
+		align-items: center;
+		justify-content: center;
+	}
+	.trivio{
+		position: relative;
+		height: 25vh;
+	}
+	.th{
+		width: 100%;
+		align-content: center;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+	.tb{
+		height: auto;
+	}
+	.top.col{
 		height: 30vh;
+	}
+	.chi{
+		margin-top: -5vh;
+		width: 100%;
+		align-content: center;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+	.col.tb.timer{
+		top: -6vh;
+	}
+	.foot{
+		display: inherit;
+	}
+}
+
+@media only screen and (max-width: 435px){
+	.top{
+		display: inherit;
 	}
 }
 
