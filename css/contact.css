@@ -13,6 +13,7 @@
 	justify-content: center;
   align-items: center;
   text-align: center;
+  width: auto;
 }
 
 .card {
@@ -54,15 +55,35 @@ img {
 @media only screen and (max-width: 768px) {
 	.contacts_holder{
 		display: block;
-		margin-left: 7vw;
+		margin-left: auto!important;
+    margin-top: 3vh;
 		padding-top: 0;
+    width: auto;
+    padding-left: ;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 	}
 
 	.card{
 		margin-bottom: 30px;
+    margin-right: auto;
+    position: relative!important;
+    margin-left: auto;
 	}
 	.card:hover {
 		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 		transform: translateY(0px);
 	}
+  .contact{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: auto;
+    float: none;
+    position: relative;
+    
+  }
 }
