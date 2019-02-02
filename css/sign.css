@@ -32,8 +32,8 @@ body:after {
   width: 100%;
 }
 .wrapper2 .login .profile, .wrapper2 .register .profile {
-  height: 100px;
-  width: 100px;
+  height: 140px;
+  width: 140px;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 100%;
   margin: 0 auto;
@@ -98,10 +98,17 @@ body:after {
   border: none;
   border-radius: 25px;
   text-transform: uppercase;
-  background: #D32F2F;
+  background: #1dc91d;
   color: rgba(255, 255, 255, 0.8);
   font-weight: 800;
   cursor: pointer;
+  transition: background-color 0.15s ease-in, color 0.15s ease-out, box-shadow 0.15s ease-in, transform 0.15s ease-out;
+}
+.wrapper2 .login button:hover, .wrapper2 .register button:hover{
+  background-color: white;
+  color: #1dc91d;
+  box-shadow: 3px 8px 15px rgba(0, 0, 0, 0.15);
+  transform: translateY(-1px);
 }
 
 .login-view-toggle {
