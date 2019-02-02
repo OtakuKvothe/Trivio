@@ -36,7 +36,7 @@ html{
 }
 
 body{
-  font-family: 'Oswald', sans-serif;
+  font-family: 'WorkSans', sans-serif;
     font-size: 18px;
     overflow-x: hidden;
 }
@@ -197,7 +197,8 @@ button#answer{
   top: 0;
   bottom: 0;
   position: absolute;
-  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  /*background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);*/
+  background: linear-gradient(124deg, #E6351A, #E61A1A, #E6B61A, #E2E61A, #1AE63C, #1ADBE6, #271AE6, #D51AE6, #D51AE6);
   background-size: 1800% 1800%;
 
 -webkit-animation: rainbow 18s ease infinite;
@@ -224,6 +225,10 @@ button#answer{
     0%{background-position:0% 82%}
     50%{background-position:100% 19%}
     100%{background-position:0% 82%}
+}
+#message{
+  top: 35vh;
+  left: 35vw;
 }
 
 @media only screen and (max-width: 768px) {
@@ -272,6 +277,22 @@ button#answer{
 
   .footer{
     display: none;
+  }
+  .container{
+    position: absolute;
+    height: 100%;
+  }
+  #message{
+    position:fixed; 
+  top: calc(50% - 50px); 
+  left: calc(50% - 170px);
+  }
+}
+@media only screen and (max-width: 320px){
+  #message{
+    position:fixed; 
+  top: calc(50% - 50px); 
+  left: calc(50% - 160px);
   }
 }
 

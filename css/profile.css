@@ -23,7 +23,6 @@ body{
 	padding-left: 5vw;
 	padding-top: 3vh;
 }
-
 .profile_pic{
 	border-radius: 50%;
 	width: 8vw;
@@ -32,14 +31,12 @@ body{
 .profile_holder{
  	float: right;
 }
-
 .iholder{
 	margin-bottom: 5vh;
 }
 .info{
 	margin-left: 5px;
 }
-
 .info, .title{
 	text-align: left;
 }
@@ -63,8 +60,7 @@ body{
 	background-color: white;
   	color: #1dc91d;
 }
-
-@media only screen and(max-width: 1024px){
+@media only screen and(max-width: 768px){
 	.logout_button button{
 		width: 300px;
 		height: 10vh;
