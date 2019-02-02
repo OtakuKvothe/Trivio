@@ -2,6 +2,7 @@ body{
 	text-align: center;
 	align-items: center;
 	justify-content: center;
+	position: relative;
 }
 
 .profile-area{
@@ -11,7 +12,9 @@ body{
 	width: 60vw!important;
 	display: block;
 }
-
+.main-content{
+	height: auto!important;
+}
 .username-container{
 	height: auto;
 	right: 0;
@@ -22,14 +25,19 @@ body{
 	display: block;
 	padding-left: 5vw;
 	padding-top: 3vh;
+	position: relative;
 }
 .profile_pic{
 	border-radius: 50%;
-	width: 8vw;
+	width: auto;
 	height: 8vw;
 }
 .profile_holder{
  	float: right;
+}
+.trivio{
+	width: auto;
+	height: 10vw;
 }
 .iholder{
 	margin-bottom: 5vh;
@@ -45,6 +53,7 @@ body{
 	align-items: center;
 	justify-content: center;
 	margin-top: 5vh;
+	bottom: 0;
 }
 .logout_button button{
 	right: 0;
@@ -66,5 +75,6 @@ body{
 		height: 10vh;
 		border-radius: none;
 	}
-
+	.main-content{
+}
 }

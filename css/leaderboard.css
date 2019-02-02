@@ -33,7 +33,7 @@
 
 
 .top-icon{
-	float: left;
+
 }
 .title{
 	font-size: 7vh;
@@ -42,7 +42,9 @@
 }
 .chih{
 	text-align: right;
-	padding-right: 10vw;
+}
+.chi{
+	margin-right: 10vw;
 }
 @media only screen and (max-width: 768px) {
 	.ranking-item{
@@ -61,4 +63,11 @@
 		align-items: center;
 		align-content: center;
 	}
+	.chih{
+	text-align: center;
+	
+}
+.chi{
+	margin-right: 0;
+}
 }
